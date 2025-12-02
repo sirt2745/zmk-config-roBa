@@ -83,7 +83,7 @@
 &kp Q      &kp W         &kp E         &kp R    &kp T                                                &kp Y      &kp U  &kp I      &kp O    &kp P
 &kp A      &kp S         &kp D         &kp F    &kp G        &kp LS(LG(S))            &kp DEL        &kp H      &kp J  &kp K      &kp L    &kp BACKSPACE
 &kp Z      &kp X         &kp C         &kp V    &kp B        &mt RIGHT_SHIFT TAB      &kp SEMICOLON  &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &kt F13  &lt 2 SPACE  &lt 1 SPACE              &kp SPACE      &kp ENTER                             &lt 6 ESCAPE
+&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &kp F13  &lt 1 SPACE  &lt 1 SPACE              &kp SPACE      &kp ENTER                             &lt 6 ESCAPE
             >;
 
             sensor-bindings = <&inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>;
@@ -91,10 +91,10 @@
 
         FUNCTION {
             bindings = <
-&kp F1    &kp F2    &kp F3     &kp F4     &kp F5                             &kp F6    &kp F7     &kp F8   &kp F9     &kp F10
-&kp N1    &kp N2    &kp N3     &kp N4     &kp N5     &kp N6        &kp N7    &kp N8    &kp N9     &kp N0   &kp MINUS  &kp EQUAL
-&kp LBKT  &kp RBKT  &kp MINUS  &kp EQUAL  &kp GRAVE  &kp APOS      &kp BSLH  &kp FSLH  &kp COMMA  &kp DOT  &kp LCTRL  &kp RCTRL
-&trans    &trans    &trans     &trans     &trans     &trans        &trans    &trans                                   &trans
+&kp F1    &kp F2    &kp F3     &kp F4     &kp F5                          &kp F6    &kp F7     &kp F8   &kp F9     &kp F10
+&kp N1    &kp N2    &kp N3     &kp N4     &kp N5    &trans      &kp N6    &kp N7    &kp N8     &kp N9   &kp N0     &kp MINUS
+&kp LBKT  &kp RBKT  &kp MINUS  &kp EQUAL  &kp APOS  &trans      &kp BSLH  &kp FSLH  &kp COMMA  &kp DOT  &kp LCTRL  &kp RCTRL
+&trans    &trans    &trans     &trans     &trans    &trans      &trans    &trans                                   &trans
             >;
         };
 
